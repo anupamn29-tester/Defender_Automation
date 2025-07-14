@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [EventTest]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TestEvent(failed)">
+    <classes>
+      <class name="collation.Event.CRUDoperation">
+        <methods>
+          <include name="lunchchrome"/>
+          <include name="Eventmastercreate"/>
+          <include name="exit"/>
+        </methods>
+      </class> <!-- collation.Event.CRUDoperation -->
+    </classes>
+  </test> <!-- TestEvent(failed) -->
+</suite> <!-- Failed suite [EventTest] -->

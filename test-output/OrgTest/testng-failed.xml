@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [OrgTest]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="TestOrg(failed)">
+    <classes>
+      <class name="collation.Organization.CRUDOPERATION">
+        <methods>
+          <include name="exit"/>
+          <include name="lunchchrome"/>
+          <include name="CRUDOPERATIONcreate"/>
+        </methods>
+      </class> <!-- collation.Organization.CRUDOPERATION -->
+    </classes>
+  </test> <!-- TestOrg(failed) -->
+</suite> <!-- Failed suite [OrgTest] -->
