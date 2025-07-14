@@ -21,7 +21,7 @@ public class Individualtest extends BaseClassSetup{
 	
 	@AfterMethod
 	public void exit() {
-		driver.close();
+		driver.quit();
 	}
 	@Test
 	public void Individualcreate() throws InterruptedException {
